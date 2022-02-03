@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    background-image: url(images/bg2-lacasa.jpg);
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+}
+
+.container img {
+    width: 400px;
+    margin-top: 15vh;
+}
+
+.conteudo {
+    padding-left: 100px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.438));
+    width: 70vh;
+    height: 100%;
+    box-shadow: 250px 10px 20px 100px rgba(0, 0, 0, 0.397);
+}
+
+.text {
+    padding-top: 20px;
+    width: 70vh;
+    color: white;
+    font-size: 20px;
+}
+
+.text p {
+    text-shadow: 10px 5px 20px rgb(0, 0, 0);
+}
+
+.botao {
+    display: flex;
+    padding-top: 20px;
+    text-align: left;
+    width: 60vh;
+}
+
+.botao img {
+    margin: 0;
+    width: 15px;
+}
+
+.botao button {
+    font-weight: 500;
+    font-size: 20px;
+    width: 143px;
+    height: 45px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.301);
+    color: white;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.233);
+    cursor: pointer;
+}
+
+.botao label {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
