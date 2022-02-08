@@ -10,31 +10,31 @@
 
 
 .container {
-    background-image: url(images/bg2-lacasa.jpg);
+    background-image: url(images/bg1-lacasa.jpg);
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
-    height: 100vh;
+    height: 114vh;
     width: 100%;
 }
 
 .container img {
-    width: 400px;
-    margin-top: 15vh;
+    width: 500px;
+    margin-top: 10vh;
 }
 
 .conteudo {
-    padding-left: 100px;
+    padding-left: 70px;
     background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.438));
-    width: 70vh;
+    width: 50%;
     height: 100%;
-    box-shadow: 250px 10px 20px 100px rgba(0, 0, 0, 0.397);
+    box-shadow: 250px 0px 60px 0px rgba(0, 0, 0, 0.432);
 }
 
 .text {
-    padding-top: 20px;
+    padding-top: 30px;
     width: 70vh;
     color: white;
     font-size: 20px;
@@ -59,7 +59,8 @@
 .botao button {
     font-weight: 500;
     font-size: 20px;
-    width: 143px;
+    width: auto;
+    padding: 0px 14px 0px 14px;
     height: 45px;
     border-radius: 6px;
     border: none;
@@ -76,5 +77,104 @@
 button:hover {
     background-color: white;
     color: black;
-    font-weight: 600;
 }
+
+.cartaz {
+    width: 170vh;
+    margin-left: 37px;
+}
+.cartaz img{
+    width: 156px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.233);
+    margin: 0;
+    cursor: pointer;
+}
+
+.cartaz img:hover{
+    filter: brightness(60%);
+}
+
+.cartaz2 {
+    width: 170vh;
+    margin-left: 37px;
+    margin-top: 18px;
+}
+.cartaz2 img{
+    width: 156px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.233);
+    margin: 0;
+    cursor: pointer;
+}
+
+.cartaz2 img:hover{
+    filter: brightness(60%);
+}
+
+.genero label {
+    display: flex;
+    color: white;
+    font-size: 18px;
+    margin: 120px 0px 15px 0px;
+    font-weight: 500;
+}
+
+.genero2 label {
+    display: flex;
+    color: white;
+    font-size: 18px;
+    margin: 18px 0px 10px 0px;
+    font-weight: 500;
+}
+
+.arrow {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.123);
+    margin: 0;
+    width: 20px;
+    height: 120px;
+    cursor: pointer;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.61);
+    top: 63vh;
+    box-shadow: 20px 0px 60px 5px rgba(0, 0, 0, 0.767);
+  }
+
+  .arrow2 {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.123);
+    margin: 0;
+    width: 20px;
+    height: 120px;
+    cursor: pointer;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.61);
+    top: 94vh;
+    box-shadow: 20px 0px 60px 5px rgba(0, 0, 0, 0.432);
+  }
+
+  .arrow:active{
+    background-color: rgba(255, 255, 255, 0.212);
+    color: white;
+  }
+  
+  #arrow-prev {
+    margin-left: 5px;
+  }
+  
+  #arrow-next {
+    margin-left: 175vh;
+  }
+
+  #arrow-prev2 {
+    margin-left: 5px;
+  }
+  
+  #arrow-next2 {
+    margin-left: 175vh;
+  }
