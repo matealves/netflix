@@ -1,6 +1,6 @@
 $('.cartaz').slick({
   centerMode: true,
-  centerPadding: '130px',
+  centerPadding: '60px',
   slidesToShow: 8,
   prevArrow: $("#arrow-prev"),
   nextArrow: $("#arrow-next"),
@@ -30,7 +30,7 @@ $('.cartaz').slick({
 
 $('.cartaz2').slick({
   centerMode: true,
-  centerPadding: '130px',
+  centerPadding: '60px',
   slidesToShow: 8,
   prevArrow: $("#arrow-prev2"),
   nextArrow: $("#arrow-next2"),
