@@ -13,12 +13,64 @@ body {
 
 main {
     display: flex;
-    margin: auto;
+    margin-left: 80px;
     justify-content: space-evenly;
-   /* background-color: rgb(222, 184, 135); */
-    width: 1400px;
+  /*  background-color: rgb(222, 184, 135); */
+    max-width: 1400px;
     height: 920px;
     box-sizing: border-box;
+    max-width: max-content;
+}
+
+nav {
+    background: transparent;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 80px;
+    text-shadow: 10px 5px 20px rgb(0, 0, 0);
+}
+
+nav img {
+    width: 110px;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.conta {
+    width: 40px;
+    margin-right: 0px;
+}
+
+.lupa {
+    filter: invert(100%);
+    width: 30px;
+    margin-left: 750px;
+}
+
+.conta2 {
+    margin-left: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    
+}
+
+nav ul li {
+    display: inline-block;.
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 0px 45px 0px 0px;
+}
+
+nav ul li:hover{
+    color: #ffffff;
+    text-shadow: 15px 5px 20px rgb(255, 255, 255);
 }
 
 .container {
@@ -28,12 +80,12 @@ main {
     background-position: right;
     height: 100vh;
     width: auto;
-    box-shadow: 450px 0px 100px 250px rgba(0, 0, 0, 0.603) inset;
+    box-shadow: 450px 0px 100px 300px rgba(0, 0, 0, 0.603) inset;
 }
 
 .container img {
     width: 420px;
-    margin-top: 10vh;
+    margin-top: 12vh;
 }
 
 .conteudo {
@@ -94,7 +146,7 @@ button:hover {
     align-items: center;
     justify-content: ;
    /* background-color: rgb(173, 153, 52); */
-    width: 1400px;
+    width: 1700px; /* LARGURA DO CARROSSEL */
     height: 225px;
     box-sizing: border-box;
 }
@@ -104,14 +156,13 @@ button:hover {
     align-items: center;
     justify-content: ;
    /* background-color: rgb(173, 153, 52); */
-    width: 1400px;
+    width: 1700px;
     height: 225px;
     box-sizing: border-box;
 }
 
 .cartaz {
-    width: 175vh;
-
+    width: 160vh; /* LARGURA DOS FILMES */
 }
 .cartaz img{
     width: 136px;
@@ -125,7 +176,7 @@ button:hover {
 }
 
 .cartaz2 {
-    width: 175vh;
+    width: 160vh;
 }
 .cartaz2 img{
     width: 136px;
@@ -142,7 +193,7 @@ button:hover {
     display: flex;
     color: white;
     font-size: 18px;
-    margin: 40px 0px 8px 0px;
+    margin: 70px 0px 8px 0px; /* CATEGORIA */
     font-weight: 500;
 }
 
@@ -150,7 +201,7 @@ button:hover {
     display: flex;
     color: white;
     font-size: 18px;
-    margin: 18px 0px 10px 0px;
+    margin: 28px 0px 10px 0px; /* CATEGORIA */
     font-weight: 500;
 }
 

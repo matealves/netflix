@@ -1,7 +1,7 @@
 $('.cartaz').slick({
   centerMode: true,
-  centerPadding: '60px',
-  slidesToShow: 8,
+  centerPadding: '50px',
+  slidesToShow: 10,
   prevArrow: $("#arrow-prev"),
   nextArrow: $("#arrow-next"),
   responsive: [
@@ -30,8 +30,8 @@ $('.cartaz').slick({
 
 $('.cartaz2').slick({
   centerMode: true,
-  centerPadding: '60px',
-  slidesToShow: 8,
+  centerPadding: '50px',
+  slidesToShow: 10,
   prevArrow: $("#arrow-prev2"),
   nextArrow: $("#arrow-next2"),
   responsive: [
