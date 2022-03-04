@@ -22,19 +22,21 @@ main {
     max-width: max-content;
 }
 
-nav {
+header {
     background: transparent;
     position: absolute;
-    align-items: center;
-    justify-content: center;
     padding: 30px 80px;
     text-shadow: 10px 5px 20px rgb(0, 0, 0);
+    display: flex;
+    width: 80vw;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
 }
 
-nav img {
+header img {
     width: 110px;
     align-items: center;
-    margin-right: 50px;
 }
 
 .conta {
@@ -44,28 +46,35 @@ nav img {
 
 .lupa {
     filter: invert(100%);
-    width: 30px;
-    margin-left: 750px;
+    width: 70px;
+    padding-right: 40px;
+    display: inline-block;
 }
 
 .conta2 {
-    margin-left: 10px;
+    margin-top: 11px;
+    text-align: center;
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
 }
 
 nav ul {
     list-style-type: none;
-    
 }
 
 nav ul li {
-    display: inline-block;.
+    display: inline-block;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #ffffff;
     font-size: 17px;
-    padding: 0px 45px 0px 0px;
+    padding: 0px 75px 0px 0px;
 }
 
 nav ul li:hover{
