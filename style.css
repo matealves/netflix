@@ -4,60 +4,79 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto';
-    box-sizing: border-box;
 }
 
 body {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 main {
-    display: flex;
-    margin-left: 80px;
-    justify-content: space-evenly;
-  /*  background-color: rgb(222, 184, 135); */
-    max-width: 1400px;
-    height: 920px;
-    box-sizing: border-box;
+    margin: auto;
+    /* background-color: rgb(222, 184, 135); */
+    max-width: 1365px;
     max-width: max-content;
 }
 
-header {
-    background: transparent;
-    position: absolute;
-    padding: 30px 80px;
-    text-shadow: 10px 5px 20px rgb(0, 0, 0);
-    display: flex;
-    width: 80vw;
+.topo {
     height: 80px;
-    align-items: center;
-    justify-content: space-between;
-}
-
-header img {
-    width: 110px;
-    align-items: center;
-}
-
-.conta {
-    width: 40px;
-    margin-right: 0px;
-}
-
-.lupa {
-    filter: invert(100%);
-    width: 70px;
-    padding-right: 40px;
-    display: inline-block;
-}
-
-.conta2 {
-    margin-top: 11px;
-    text-align: center;
-    display: inline-block;
-    width: 150px;
-    height: 40px;
+    background-color: transparent;
     position: absolute;
+    width: 100%;
+    z-index: 1;
+    /* opacity: 0.9; */
+}
+
+.topoIn{
+    /* background-color: rgb(69, 70, 70); */
+    display: flex;
+    height: 80px;
+    max-width: 1365px;
+    margin: auto;
+    justify-content: space-between;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.menu {
+    line-height: 80px;
+    margin: auto;
+}
+
+.topoEsquerda img {
+    width: 120px;
+    margin-top: 24px;
+}
+
+.topoEsquerda2 img {
+    width: 22px;
+    margin-top: 19px;
+    display: none;
+}
+
+.cad {
+    display: flex;
+    line-height: 80px;
+    transition: 0.2s;
+}
+
+.conta img {
+    width: 47px;
+    margin-top: 17px;
+    margin-right: 10px;
+}
+
+.lupa img{
+    filter: invert(100%);
+    width: 25px;
+    margin-bottom: 8px;
+    margin-right: 25px;
+    margin-top: 28px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+.cad a {
     color: white;
     text-decoration: none;
 }
@@ -68,18 +87,25 @@ nav ul {
 
 nav ul li {
     display: inline-block;
+    transition: 0.2s;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #ffffff;
     font-size: 17px;
-    padding: 0px 75px 0px 0px;
+    padding: 0px 20px 0px 20px;
 }
 
-nav ul li:hover{
+#user {
+    transition: 0.2s;
+}
+
+nav ul li:hover, #user:hover{
     color: #ffffff;
-    text-shadow: 15px 5px 20px rgb(255, 255, 255);
+    text-shadow: 0px 5px 20px rgb(255, 255, 255);
+    transform: scale(1.05);
+    transition: 0.2s;
 }
 
 .container {
@@ -88,24 +114,25 @@ nav ul li:hover{
     background-size: cover;
     background-position: right;
     height: 100vh;
-    width: auto;
+    max-width:100%;
     box-shadow: 450px 0px 100px 300px rgba(0, 0, 0, 0.603) inset;
+    margin: auto;
 }
 
 .container img {
     width: 420px;
     margin-top: 12vh;
+    padding-left: 13px;
 }
 
 .conteudo {
-   /* padding-left: 0; */
-   /* background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.438)); */
-    height: 100%;
-   /* box-shadow: 250px 0px 60px 0px rgba(0, 0, 0, 0.432); */
+    /* background-color: rgba(112, 112, 112, 0.26); */
+    max-width: 1365px;
 }
 
 .text {
     padding-top: 30px;
+    padding-left: 13px;
     width: 70vh;
     color: white;
     font-size: 18px;
@@ -122,15 +149,9 @@ nav ul li:hover{
     width: 60vh;
 }
 
-.botao img {
-    margin: 0;
-    width: 15px;
-}
-
 .botao button {
     font-weight: 500;
     font-size: 18px;
-    width: auto;
     padding: 0px 12px 0px 14px;
     height: 45px;
     border-radius: 6px;
@@ -139,6 +160,7 @@ nav ul li:hover{
     color: white;
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.233);
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .botao label {
@@ -147,15 +169,18 @@ nav ul li:hover{
 
 button:hover {
     background-color: white;
+    transition: 0.3s;
     color: black;
 }
 
 .carrosel {
     display: flex;
     align-items: center;
-    justify-content: ;
-   /* background-color: rgb(173, 153, 52); */
-    width: 1700px; /* LARGURA DO CARROSSEL */
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    /* background-color: rgba(173, 153, 52, 0.199); */
+    /* max-width: 1365px; LARGURA DO CARROSSEL */
     height: 225px;
     box-sizing: border-box;
 }
@@ -163,39 +188,45 @@ button:hover {
 .carrosel2 {
     display: flex;
     align-items: center;
-    justify-content: ;
-   /* background-color: rgb(173, 153, 52); */
-    width: 1700px;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    /* background-color: rgba(173, 153, 52, 0.199); */
+    max-width: 1365px; /* LARGURA DO CARROSSEL */
     height: 225px;
     box-sizing: border-box;
 }
 
 .cartaz {
-    width: 160vh; /* LARGURA DOS FILMES */
+    max-width: 1260px;
 }
 .cartaz img{
     width: 136px;
-    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.233);
     margin: 0;
+    transition: 0.3s;
     cursor: pointer;
 }
 
 .cartaz img:hover{
-    filter: contrast(85%) brightness(110%);
+    filter: contrast(90%) brightness(110%);
+    transform: scale(1.05);
+    transition: 0.3s;
 }
 
 .cartaz2 {
-    width: 160vh;
+    max-width: 1260px;
 }
 .cartaz2 img{
     width: 136px;
-    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.233);
     margin: 0;
+    transition: 0.3s;
     cursor: pointer;
 }
 
 .cartaz2 img:hover{
-    filter: contrast(85%) brightness(110%);
+    filter: contrast(90%) brightness(110%);
+    transform: scale(1.05);
+    transition: 0.3s;
 }
 
 .genero label {
@@ -204,6 +235,7 @@ button:hover {
     font-size: 18px;
     margin: 70px 0px 8px 0px; /* CATEGORIA */
     font-weight: 500;
+    padding-left: 13px;
 }
 
 .genero2 label {
@@ -212,6 +244,7 @@ button:hover {
     font-size: 18px;
     margin: 28px 0px 10px 0px; /* CATEGORIA */
     font-weight: 500;
+    padding-left: 13px;
 }
 
 .arrow {
@@ -278,7 +311,7 @@ button:hover {
     font-size: 12px;
     height: 70px;
     width: 100%;
-    bottom: -265px;
+    bottom: -360px;
     left:0;
     position: absolute;
     font-weight: 400;
@@ -287,8 +320,140 @@ button:hover {
 footer a {
     text-decoration: none;
     color: inherit;
+    transition: 0.3s;
 }
 
 footer a:hover{
-    color: rgb(255, 0, 0);
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+@media (max-width: 870px){ /*MENU RESPONSIVO*/
+
+    .container {
+        background-position: center;
+        height: 86vh;
+    }
+
+    .cartaz {
+        max-width: 690px;
+    }
+
+    
+    .cartaz2 {
+        max-width: 690px;
+    }
+
+    .conteudo {
+        height:0px;
+    }   
+
+    footer {
+        width: 100%;
+        bottom: -360px;
+    }
+        
+    }
+
+
+@media (max-width: 780px){ /*MENU RESPONSIVO*/
+
+.cad {
+    display: none;
+}
+
+.topoEsquerda img{
+    display: none;
+}
+
+.topoEsquerda2 img{
+    display: flex;
+}
+
+nav ul li a {
+    font-size: 18px;
+}
+
+.text {
+    width: 54vh;
+}
+
+.arrow, .arrow2 {
+    display: none;
+}
+
+footer {
+    width: 100%;
+    bottom: -550px;
+}
+
+}
+
+@media (max-width: 520px){ /*CORPO RESPONSIVO*/
+
+    .text {
+        width: 40vh;
+        font-size: 14px;
+    }
+
+    .serie img{
+        width: 340px;
+    }
+
+    .botao {
+        padding-top: 15px;
+    }
+
+    .botao button {
+        font-weight: 500;
+        font-size: 15px;
+        padding: 0px 12px 0px 14px;
+        height: 35px;
+        border-radius: 5px;
+    }
+
+    .genero label {
+        font-size: 16px;
+        margin: 35px 0px 0px 0px;
+    }
+
+    .genero2 label {
+        font-size: 16px;
+        margin: 8px 0px 0px 0px;
+    }
+
+    body {
+        display: block;
+        height: 2000px;
+        padding-bottom: 500px;
+    }
+    
+
+    .arrow, .arrow2 {
+        display: none;
+    }
+
+    .container {
+        background-position: center;
+        height: 86vh;
+    }
+
+    .cartaz {
+        max-width: 410px;
+    }
+
+    
+    .cartaz2 {
+        max-width: 410px;
+    }
+
+    .conteudo {
+        height:0px;
+    }
+
+    footer {
+        width: 100%;
+        bottom: -60px;
+        position: absolute;
+    }
 }
