@@ -14,7 +14,7 @@
 </h3>
 
 <h4 align = "center">
-	versão 1.7 ✅
+	versão 1.8 ✅
 </h4>
 <br>
 <h3 align = "center">
@@ -48,6 +48,7 @@ Uma página clone da plataforma de streaming <strong>Netflix</strong>, criada pa
  <img align="center" alt="Mateus-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="Mateus-CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
   <img align="center" alt="Mateus-Js" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+  <img align="center" alt="Mateus-Js" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg">
 
 </div>
 <br>

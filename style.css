@@ -259,6 +259,7 @@ button:hover {
     font-size: 35px;
     color: rgba(255, 255, 255, 0.61);
     box-shadow: 20px 0px 60px 5px rgba(0, 0, 0, 0.767);
+    user-select: none; 
   }
 
   .arrow2 {
@@ -273,6 +274,7 @@ button:hover {
     font-size: 35px;
     color: rgba(255, 255, 255, 0.61);
     box-shadow: 20px 0px 60px 5px rgba(0, 0, 0, 0.767);
+    user-select: none; 
   }
 
   .arrow:active{
