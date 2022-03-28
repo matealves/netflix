@@ -14,7 +14,7 @@
 </h3>
 
 <h4 align = "center">
-	versão 1.9 ✅
+	versão 2.0 ✅
 </h4>
 <br>
 <h3 align = "center">

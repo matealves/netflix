@@ -8,6 +8,7 @@
 
 body {
     background-color: rgb(0, 0, 0);
+    min-width:100%;
 }
 
 main {
@@ -443,7 +444,7 @@ footer {
     }
 
     body {
-        max-height: 100%;
+        max-height: 130%;
         max-width: 100%;
     }
 
@@ -467,6 +468,7 @@ footer {
 
     .conteudo {
         height:0px;
+        max-width: 100%;
     }
 
     footer {
