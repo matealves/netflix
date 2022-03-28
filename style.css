@@ -167,10 +167,28 @@ nav ul li:hover, #user:hover{
     cursor: pointer;
 }
 
-button:hover {
+button:hover{
     background-color: white;
     transition: 0.3s;
     color: black;
+}
+
+button:hover .play {
+    transition: 0.3s;
+    filter: invert(0);
+}
+
+label {
+    display: flex;
+    line-height: 35px;
+}
+
+.p2 {
+    display: none;
+}
+
+button .play {
+display: none;
 }
 
 .carrosel {
@@ -425,11 +443,9 @@ footer {
     }
 
     body {
-        display: block;
-        height: 2000px;
-        padding-bottom: 500px;
+        max-height: 100%;
+        max-width: 100%;
     }
-    
 
     .arrow, .arrow2 {
         display: none;
@@ -441,12 +457,12 @@ footer {
     }
 
     .cartaz {
-        max-width: 410px;
+        max-width: 380px;
     }
 
     
     .cartaz2 {
-        max-width: 410px;
+        max-width: 380px;
     }
 
     .conteudo {
@@ -455,7 +471,26 @@ footer {
 
     footer {
         width: 100%;
-        bottom: -60px;
+        bottom: -160px;
         position: absolute;
+    }
+
+    button .play {
+        margin-top: 9px;
+        margin-bottom: 20px;
+        margin-right: 5px;
+        margin-left: -18px;
+        transition: 0.3s;
+        width: 15px;
+        filter: invert(1);
+        display: flex;
+    }
+
+    .p1 {
+        display: none;
+    }
+
+    .p2 {
+        display: flex;
     }
 }

@@ -31,8 +31,8 @@ $('.cartaz').slick({
         arrows: false,
         centerMode: true,
         centerPadding: '5px',
-        slidesToShow: 3,
-        slidesToShow: 2
+        slidesToShow: 4,
+        slidesToShow: 3
       }
     }
   ]
@@ -71,8 +71,8 @@ $('.cartaz2').slick({
         arrows: false,
         centerMode: true,
         centerPadding: '10px',
-        slidesToShow: 3,
-        slidesToShow: 2
+        slidesToShow: 4,
+        slidesToShow: 3
       }
     }
   ]
