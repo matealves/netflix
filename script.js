@@ -30,7 +30,7 @@ $('.cartaz').slick({
       settings: {
         arrows: false,
         centerMode: true,
-        centerPadding: '10px',
+        centerPadding: '42px',
         slidesToShow: 3,
         slidesToShow: 2
       }
@@ -70,7 +70,7 @@ $('.cartaz2').slick({
       settings: {
         arrows: false,
         centerMode: true,
-        centerPadding: '10px',
+        centerPadding: '42px',
         slidesToShow: 3,
         slidesToShow: 2
       }
