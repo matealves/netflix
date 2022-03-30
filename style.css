@@ -348,6 +348,17 @@ footer a:hover{
     transition: 0.3s;
 }
 
+@media (max-width: 1025px){
+
+    .cartaz {
+        max-width: 910px;
+    }
+    .cartaz2 {
+        max-width: 910px;
+    }
+
+}
+
 @media (max-width: 870px){ /*MENU RESPONSIVO*/
 
     .container {
@@ -409,6 +420,21 @@ footer {
 
 }
 
+@media (max-width: 689px) {
+
+    .cartaz {
+        max-width: 580px;
+    }    
+    .cartaz2 {
+        max-width: 580px;
+    }
+
+    .topoEsquerda2 {
+        margin-left: 42px;
+    }
+
+}
+
 @media (max-width: 520px){ /*CORPO RESPONSIVO*/
 
     .text {
@@ -425,7 +451,7 @@ footer {
     }
 
     .topoEsquerda2 {
-        margin-left: 15px;
+        margin-left: 5px;
     }
 
     .botao button {
@@ -498,4 +524,30 @@ footer {
     .p2 {
         display: flex;
     }
+}
+
+@media (max-width: 394px){
+    .topoIn{
+        padding-left: 15px;
+        padding-right: 5px;
+    }
+
+    .cartaz {
+        max-width: 340px;
+    }    
+    .cartaz2 {
+        max-width: 340px;
+    }
+
+    .serie img{
+        width: 300px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 16px;
+        padding: 0px 15px 0px 15px;
+    }
+
 }

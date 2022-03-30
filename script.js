@@ -6,6 +6,16 @@ $('.cartaz').slick({
   nextArrow: $("#arrow-next"),
   responsive: [
     {
+      breakpoint: 1026,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '85px',
+        slidesToShow: 6,
+        slidesToShow: 5
+      }
+    },
+    {
       breakpoint: 870,
       settings: {
         arrows: false,
@@ -13,6 +23,16 @@ $('.cartaz').slick({
         centerPadding: '60px',
         slidesToShow: 5,
         slidesToShow: 4
+      }
+    },
+    {
+      breakpoint: 689,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '62px',
+        slidesToShow: 4,
+        slidesToShow: 3
       }
     },
     {
@@ -31,6 +51,26 @@ $('.cartaz').slick({
         arrows: false,
         centerMode: true,
         centerPadding: '42px',
+        slidesToShow: 3,
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 394,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '22px',
+        slidesToShow: 3,
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 376,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '25px',
         slidesToShow: 3,
         slidesToShow: 2
       }
@@ -46,6 +86,16 @@ $('.cartaz2').slick({
   nextArrow: $("#arrow-next2"),
   responsive: [
     {
+      breakpoint: 1026,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '85px',
+        slidesToShow: 6,
+        slidesToShow: 5
+      }
+    },
+    {
       breakpoint: 870,
       settings: {
         arrows: false,
@@ -53,6 +103,16 @@ $('.cartaz2').slick({
         centerPadding: '20px',
         slidesToShow: 5,
         slidesToShow: 4
+      }
+    },
+    {
+      breakpoint: 689,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '62px',
+        slidesToShow: 4,
+        slidesToShow: 3
       }
     },
     {
@@ -71,6 +131,26 @@ $('.cartaz2').slick({
         arrows: false,
         centerMode: true,
         centerPadding: '42px',
+        slidesToShow: 3,
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 394,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '22px',
+        slidesToShow: 3,
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 376,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '25px',
         slidesToShow: 3,
         slidesToShow: 2
       }
